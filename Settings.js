@@ -41,12 +41,7 @@ export default function SettingsScreen({navigation}) {
           </Text>
         </TouchableOpacity>
       </View>
-      {/* 
-<View style={{backgroundColor:'#E0E0E0'}}>
-<View style={{marginTop:5, flex:0.5}}>
-<Text>Signout</Text>
-</View>
-</View> */}
+ 
     </View>
   );
 }

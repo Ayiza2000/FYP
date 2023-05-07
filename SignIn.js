@@ -20,14 +20,7 @@ export default function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [showError, setError] = useState(false);
-  //     constructor(props) {
-  //     super(props);
-  //     this.state = {
-  //       email:'',
-  //       password:'',
-  //       API_URL: 'https://backendd.loca.lt'
-  //     };
-  // }
+
 
   const {signIn} = React.useContext(AuthContext);
   console.log('signin', signIn);

@@ -36,7 +36,6 @@ export default function Articles({navigation, route}) {
 
             if (res.status == 200) {
               console.log('responses', response);
-              //   Data.push(response)
               setData(response);
               console.log('data', Data);
               setUpdate(true);
@@ -58,15 +57,10 @@ export default function Articles({navigation, route}) {
   return (
     <MenuProvider>
       <View style={{flex: 1, marginTop: 0}}>
-        {/* <View style={{flex:1,backgroundColor:'white',paddingTop: 20}}> */}
         <FlatList
           data={data}
-          //  keyExtractor={({item}) => item._id}
           renderItem={({item}) => (
-            // console.log(item),
-            // <View style={{height:200,paddingTop:3,paddingLeft:8}}>
-
-            //   <View style={{flex:0.2,alignItems:'flex-end',paddingRight:15,marginBottom:2}}>
+         
             <Menu onSelect={value => Alert.alert(value)}>
               <MenuTrigger>
                 <MaterialCommunityIcons
