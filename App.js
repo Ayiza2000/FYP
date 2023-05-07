@@ -25,7 +25,6 @@ import Username from './Username';
 import Notifications from './Notification';
 import Followings from './Following';
 import ForgetPassword from './ForgetPassword';
-// import PushController from './PushController';
 import Policies from './Policies';
 import UploadProfilePicture from './UploadProfilePicture';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
